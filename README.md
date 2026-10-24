@@ -5,7 +5,7 @@ network sensor (Zeek) does and does not detect when an attacker runs
 common MITRE ATT&CK techniques against a target host.
 
 The point of the project is not "run attacks." It is to measure
-**detection coverage** honestly — including the cases Zeek misses and
+**detection coverage** honestly, including the cases Zeek misses and
 *why* it misses them, which is where the real analysis lives.
 
 ## Architecture
