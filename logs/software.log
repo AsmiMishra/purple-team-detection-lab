@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	software
+#open	2026-10-23-23-20-42
+#fields	ts	host	host_p	software_type	name	version.major	version.minor	version.minor2	version.minor3	version.addl	unparsed_version
+#types	time	addr	port	enum	string	count	count	count	count	string	string
+1792797642.928712	10.10.10.10	-	SSH::CLIENT	OpenSSH	10	3	-	-	p1	OpenSSH_10.3p1 Debian-4
+1792798326.916413	10.10.10.10	-	HTTP::BROWSER	curl	8	20	0	-	-	curl/8.20.0

@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-10-23-23-20-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1792797642.928712	C0tsbF3q27bxVTchS5	10.10.10.10	49336	10.10.10.20	22	data_before_established	-	F	zeek	TCP
+1792797771.442680	CbCgI130GsHDoJElF4	10.10.10.10	53376	10.10.10.20	22	data_before_established	-	F	zeek	TCP
+1792797858.742571	CBXitsBg91XQvZeef	10.10.10.10	57796	10.10.10.20	22	data_before_established	-	F	zeek	TCP
+1792798326.916413	CNKbLX3XoqcKLxI147	10.10.10.10	56942	10.10.10.20	80	data_before_established	-	F	zeek	TCP
+1792798326.920925	CNKbLX3XoqcKLxI147	10.10.10.10	56942	10.10.10.20	80	inappropriate_FIN	-	F	zeek	TCP
+1792798326.927590	CmX8jI1lt6tuUus0T5	10.10.10.10	56956	10.10.10.20	80	data_before_established	-	F	zeek	TCP
+1792798326.934474	CmX8jI1lt6tuUus0T5	10.10.10.10	56956	10.10.10.20	80	inappropriate_FIN	-	F	zeek	TCP
+1792798326.942076	CfAzxh429TqVNsHus7	10.10.10.10	56972	10.10.10.20	80	data_before_established	-	F	zeek	TCP
+1792798326.945099	CfAzxh429TqVNsHus7	10.10.10.10	56972	10.10.10.20	80	inappropriate_FIN	-	F	zeek	TCP
+1792798634.007852	CmmYcp35eFAQBApKa3	10.10.10.20	34686	10.10.10.10	4444	bad_TCP_checksum	-	F	zeek	TCP
+1792798634.008505	CmmYcp35eFAQBApKa3	10.10.10.20	34686	10.10.10.10	4444	active_connection_reuse	-	F	zeek	TCP
+1792798634.008505	CyMpOnIfaZltFAKS6	10.10.10.10	4444	10.10.10.20	34686	connection_originator_SYN_ack	-	F	zeek	TCP
+1792798634.011104	CyMpOnIfaZltFAKS6	10.10.10.10	4444	10.10.10.20	34686	truncated_tcp_payload	-	F	zeek	TCP
+1792799059.926793	CtXXRY2UBdsuFILnBa	10.10.10.10	41744	10.10.10.20	22	data_before_established	-	F	zeek	TCP
+1792799282.179938	CwjIPp2817rlpWkZE4	10.10.10.10	54830	10.10.10.20	22	data_before_established	-	F	zeek	TCP

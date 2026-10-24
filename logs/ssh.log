@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2026-10-23-23-20-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key_fingerprint	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string	string	string	string	double	double
+1792797642.928712	C0tsbF3q27bxVTchS5	10.10.10.10	49336	10.10.10.20	22	-	-	0	-	SSH-2.0-OpenSSH_10.3p1 Debian-4	-	-	-	-	-	-	-	-	-	-	-	-
+1792797771.442680	CbCgI130GsHDoJElF4	10.10.10.10	53376	10.10.10.20	22	-	-	0	-	SSH-2.0-OpenSSH_10.3p1 Debian-4	-	-	-	-	-	-	-	-	-	-	-	-
+1792797858.742571	CBXitsBg91XQvZeef	10.10.10.10	57796	10.10.10.20	22	-	-	0	-	SSH-2.0-OpenSSH_10.3p1 Debian-4	-	-	-	-	-	-	-	-	-	-	-	-
+1792799059.926793	CtXXRY2UBdsuFILnBa	10.10.10.10	41744	10.10.10.20	22	-	-	0	-	SSH-2.0-OpenSSH_10.3p1 Debian-4	-	-	-	-	-	-	-	-	-	-	-	-
+1792799282.179938	CwjIPp2817rlpWkZE4	10.10.10.10	54830	10.10.10.20	22	-	-	0	-	SSH-2.0-OpenSSH_10.3p1 Debian-4	-	-	-	-	-	-	-	-	-	-	-	-
